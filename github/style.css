@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* POLICE ET COULEURS GÉNÉRALES */
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #f4f6f9;
+  color: #2c3e50;
+  line-height: 1.6;
+  padding: 20px;
+}
+/* EN-TÊTE */
+header {
+  background-color: #1f2a40;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #d1d1d1;
+}
+
+/* SECTIONS */
+section {
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  font-size: 1.8rem;
+  color: #1f2a40;
+  margin-bottom: 15px;
+  border-left: 4px solid #00b894;
+  padding-left: 10px;
+}
+
+section p, section li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* COMPÉTENCES */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.skills span {
+  background-color: #00b894;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+/* PROJETS */
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* CONTACT */
+.contact-info {
+  line-height: 1.8;
+}
+
+.contact-info a {
+  color: #0984e3;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 40px;
+  padding: 20px 0;
+}
